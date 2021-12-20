@@ -8,7 +8,6 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  line-height: 2;
   color: #66BFBF;
 }
 
@@ -47,11 +46,32 @@ a {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 600px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.ml-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.teach-image {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 50px;
 }
