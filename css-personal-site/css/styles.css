@@ -17,3 +17,7 @@ h1 {
   width: 200px;
   background-color: blue;
 }
+
+.data {
+  text-decoration: underline;
+}
