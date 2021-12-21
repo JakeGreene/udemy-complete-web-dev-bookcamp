@@ -93,13 +93,16 @@ h2 {
 
 /* testimonials */
 #testimonials {
-  padding: 5% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-.tesimonial-img {
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
