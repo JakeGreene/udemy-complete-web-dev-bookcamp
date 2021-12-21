@@ -1,14 +1,54 @@
-#title {
-  background-color: #ff4c68;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.title-header {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
+#title {
+  background-color: #ff4c68;
+  color: white;
 }
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.navbar-brand {
+  font-family: "Ubunuty", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download buttons */
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+.title-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title-phone {
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+  width: 60%;
 }
