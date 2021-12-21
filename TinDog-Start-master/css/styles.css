@@ -52,3 +52,35 @@ body {
   transform: rotate(20deg);
   width: 60%;
 }
+
+/* Feature section */
+.feature-section {
+  position: relative;
+  bottom: 15rem;
+  background-color: white;
+}
+
+.feature-desc {
+  text-align: center;
+  margin: 2rem auto;
+}
+.feature-icon {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.feature-p {
+  font-family: "Montserrat", sans-serif;
+  color: #8f8f8f;
+}
