@@ -58,13 +58,14 @@ h2 {
   -o-transform: rotate(20deg);
   transform: rotate(20deg);
   width: 60%;
+  position: absolute; /* Allows us to be overlapped */
+  right: 30%;
 }
 
 /* Feature section */
-.feature-section {
-  position: relative;
-  bottom: 15rem;
+#features {
   background-color: white;
+  position: relative; /* Allows us to overlap the phone */
 }
 
 .feature-desc {
