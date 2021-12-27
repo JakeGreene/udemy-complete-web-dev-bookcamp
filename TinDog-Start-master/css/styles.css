@@ -132,6 +132,45 @@ h2 {
   padding: 3% 2%;
 }
 
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.cta-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.cta-button {
+  margin-bottom: 3rem;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-links {
+
+}
+
+.footer-link {
+  display: inline;
+  padding: 0.6rem 0.3rem;
+}
+
+.copyright {
+  color: grey;
+}
+
 /* Styling for a phone */
 @media (max-width: 1028px) {
   .title-phone {
