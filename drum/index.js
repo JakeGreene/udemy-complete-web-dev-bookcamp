@@ -9,12 +9,21 @@ var sounds = {
 }
 var buttons = document.querySelectorAll(".drum");
 for (var i = 0; i < buttons.length; i++){
-  buttons[i].addEventListener("click", handleClick);
+  buttons[i].addEventListener("click", playSoundClick);
+}
+document.addEventListener("keydown", playSoundKey);
+
+function playSoundClick() {
+  button = this.innerHTML;
+  playSound(button);
 }
 
-function handleClick() {
-  // var audio = new Audio("sounds/tom-1.mp3")
-  // audio.play();
-  button = this.innerHTML;
+function playSoundKey(event) {
+  button = event.key;
+  playSound(button);
+}
+
+function playSound(button) {
+  console.log(button);
   sounds[button].play();
 }
