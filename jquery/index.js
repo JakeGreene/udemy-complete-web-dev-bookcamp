@@ -1,3 +1,1 @@
-$(document).on("mouseover", function() {
-  $("h1").css("color", "red");
-});
+$("h1").before("<button>New</button>");
