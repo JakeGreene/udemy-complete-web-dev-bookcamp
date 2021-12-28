@@ -1,1 +1,3 @@
-$("h1").before("<button>New</button>");
+$("button").on("click", function(e) {
+  $("h1").animate({opacity: 0.5});
+});
