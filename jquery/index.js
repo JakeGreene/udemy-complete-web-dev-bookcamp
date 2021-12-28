@@ -1,3 +1,3 @@
-$("button").click(function(){
-  $("h1").css("color", "purple");
+$("input").keypress(function(e) {
+  console.log(e.key);
 });
