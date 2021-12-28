@@ -1,3 +1,3 @@
-$("input").keypress(function(e) {
-  console.log(e.key);
+$(document).on("mouseover", function() {
+  $("h1").css("color", "red");
 });
