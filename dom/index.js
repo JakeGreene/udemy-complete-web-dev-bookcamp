@@ -1,1 +1,1 @@
-document.body.querySelector("button").style.backgroundColor = "yellow";
+document.body.querySelector("h1").classList.add("huge");
