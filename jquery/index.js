@@ -1,2 +1,2 @@
 $("h1").text("Goodbye Moon");
-$("button").text("Don't Click Me");
+$("button").html("<em>Don't Click Me</em>");
