@@ -1,7 +1,12 @@
-randomNumber1 = Math.floor(Math.random() * 6) + 1;
-document.querySelector(".img1").setAttribute("src", "images/dice"+randomNumber1+".png");
-randomNumber2 = Math.floor(Math.random() * 6) + 1;
-document.querySelector(".img2").setAttribute("src", "images/dice"+randomNumber2+".png");
+randomNumber1 = roll(1);
+randomNumber2 = roll(2);
+
+function roll(id) {
+  face = Math.floor(Math.random() * 6) + 1;
+  document.querySelector(".img"+id).setAttribute("src", "images/dice"+face+".png");
+  return face;
+}
+
 titleText = "";
 if (randomNumber1 === randomNumber2) {
   titleText = "Draw!";
