@@ -1,2 +1,3 @@
-$("h1").text("Goodbye Moon");
-$("button").html("<em>Don't Click Me</em>");
+$("h1").click(function() {
+  $("h1").css("color", "purple");
+});
