@@ -15,15 +15,29 @@ document.addEventListener("keydown", playSoundKey);
 
 function playSoundClick() {
   button = this.innerHTML;
-  playSound(button);
+  handleSoundEvent(button);
 }
 
 function playSoundKey(event) {
   button = event.key;
+  handleSoundEvent(button);
+}
+
+function handleSoundEvent(button) {
   playSound(button);
+  buttonAnimation(button);
 }
 
 function playSound(button) {
   console.log(button);
   sounds[button].play();
+}
+
+function buttonAnimation(button) {
+  var selector = ".drum."+button; // Only select drums
+  var active = document.querySelector(selector);
+  active.classList.add("pressed");
+  setTimeout(function(){
+    active.classList.remove("pressed");
+  }, 100);
 }
